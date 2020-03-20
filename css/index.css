@@ -1,11 +1,7 @@
 /* color coding the space, just for testing */
 .margins{
-	background-color: darkgreen;
+	background-color: lightgoldenrodyellow;
 	height: 100vh;
-}
-.logos{
-	background-color: darkgreen;
-	height: 15%;
 }
 .navbar{
 	background-color: olivedrab;
