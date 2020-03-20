@@ -3,10 +3,11 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Artasia | Homepage</title><!-- create better title later for google search results-->
-		<link rel="stylesheet" type="text/css" href="css/index.css">
-		<script src="js/index.js" type="text/javascript">
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/navbar.css"/>
+		<script src="js/index.js"></script>
+		<script src="js/navbar.js"></script>
 
-		</script>
 	</head>
 	<body>
 			<div class="margins">
@@ -14,28 +15,33 @@
 <!-- <img src="" alt="">  insert img-->
 				</div>
 				<div class="navbar">
-					<span>
 							<span>Home</span>
+							|
 							<span>Exhibit</span>
-							<span>By You!</span>
-								<ul>
-									<li>
-										all
-									</li>
-									<li>
-										art
-									</li>
-									<li>
-										writing
-									</li>
-									<li>
-										photograph
-									</li>
+							|
+							<span id="ByU">By You!</span>
+							|
 							<span>Submit</span>
+							|
 							<span>About Us</span>
-					<span>
-					</table>
+							<!-- dropdown for by U -->
+							<ul class="dropdown" id="dropdownByU" style="display: none;">
+								<li>
+									all
+								</li>
+								<li>
+									art
+								</li>
+								<li>
+									writing
+								</li>
+								<li>
+									photograph
+								</li>
+							</ul>
 				</div>
+
+
 			</div>
 	</body>
 </html>
