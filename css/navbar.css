@@ -1,11 +1,11 @@
 :root{
 /* we can change the setting for the  */
-		@media (max-width: 400px) {
+		@media (max-width: 360px) {
 			--standardFontsize: 1.5vw;
 			--marginEm: 30%; /* margin in % */
 		}
 
-		@media (min-width: 401px) {
+		@media (min-width: 361px) {
 			--standardFontsize: 3vw;
 			--marginEm: 15%;
 		}
