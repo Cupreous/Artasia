@@ -1,24 +1,24 @@
 /* color coding the space, just for testing */
 .margins{
-	background-color: blue;
+	background-color: darkgreen;
 	height: 100vh;
 }
 .logos{
-	background-color: green;
+	background-color: darkgreen;
 	height: 15%;
 }
 .navbar{
-	background-color: yellow;
+	background-color: olivedrab;
 }
 /* end of color coding */
 :root{
 /* we can change the setting for the  */
-		@media (max-width: 360px) {
+		@media (max-width: 400px) {
 			--standardFontsize: 1.5vw;
 			--marginEm: 30%; /* margin in % */
 		}
 
-		@media (min-width: 361px) {
+		@media (min-width: 401px) {
 			--standardFontsize: 3vw;
 			--marginEm: 15%;
 		}
