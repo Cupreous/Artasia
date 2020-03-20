@@ -11,15 +11,70 @@
 		}
 }
 
+/* top navigation bar itself */
 .navbar{
+	position: fixed;
+	background-color: black;
+	overflow: hidden;
+	font-family: "Verdana";
+	font-size: 24px;
+	top: 0;
+	width: 100%;
+}
+
+
+/* text/link color */
+.navbar a{
+	float: left;
+	font-size: 24px;
 	text-align: center;
-	font-size: var(--standardFontsize, 2vw);
-	position: sticky;
+	color: white;
+	text-decoration: none;
+	padding: 14px 16px;
+}
+
+
+
+/* color change when using dropdown */
+.navbar a:hover, .dropdown:hover .drop, .dropdown-content a:hover{
+	background-color: white;
+	color: black;
+	transition: .5s ease;
 }
 
 .dropdown{
-	font-size: calc(var(--standardFontsize, 2vw) - 1vw);
-	text-align: left;
+	float: left;
+	overflow: hidden;
 }
-#dropdownByU{
+
+.dropdown .drop{
+	border: none;
+	outline: none;
+	font-size: 24px;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	text-align: center;
+}
+
+.dropdown-content {
+	display: none;
+	position: fixed;
+	background-color: black;
+	z-index: 1;
+}
+
+.dropdown-content a {
+	font-size: 18px;
+	float: none;
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
 }
