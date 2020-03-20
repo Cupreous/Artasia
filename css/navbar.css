@@ -15,7 +15,7 @@
 /* top navigation bar itself */
 .navbar{
 	position: fixed;
-	background-color: yellow;
+	background-color: olivedrab;
 	overflow: hidden;
 	font-family: "Verdana";
 	font-size: 24px;
@@ -29,7 +29,7 @@
 	float: left;
 	font-size: 24px;
 	text-align: center;
-	color: green;
+	color: lightgoldenrodyellow;
 	text-decoration: none;
 	padding: 14px 16px;
 }
@@ -38,8 +38,8 @@
 
 /* color change when using dropdown */
 .navbar a:hover, .dropdown:hover .drop, .dropdown-content a:hover{
-	background-color: white;
-	color: yellow;
+	background-color: lightgoldenrodyellow;
+	color: olivedrab;
 	transition: .5s ease;
 }
 
@@ -52,7 +52,7 @@
 	border: none;
 	outline: none;
 	font-size: 24px;
-	color: green;
+	color: olivedrab;
 	padding: 14px 16px;
 	background-color: inherit;
 	font-family: inherit;
@@ -62,14 +62,14 @@
 .dropdown-content {
 	display: none;
 	position: fixed;
-	background-color: yellow;
+	background-color: olivedrab;
 	z-index: 1;
 }
 
 .dropdown-content a {
 	font-size: 18px;
 	float: none;
-	color: black;
+	color: lightgoldenrodyellow;
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
