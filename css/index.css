@@ -1,5 +1,5 @@
 /* color coding the space, just for testing */
-.margins{
+body{
 	background-color: lightgoldenrodyellow;
 	height: 100vh;
 }
@@ -10,7 +10,7 @@
 :root{
 /* we can change the setting for the  */
 		@media (max-width: 360px) {
-			--standardFontsize: 1.5vw;
+			--standardFontsize: 1.4vw;
 			--marginEm: 30%; /* margin in % */
 		}
 
@@ -18,20 +18,16 @@
 			--standardFontsize: 3vw;
 			--marginEm: 15%;
 		}
+
 }
 .margins{
 	font-size: var(--standardFontsize, 2vw);
 	margin-left: var(--marginEm, 10%);
-	width: calc(100vw - var(--marginEm, 10%) * 2)
+	width:  calc(100vw - var(--marginEm, 10%) * 2);
 }
 .logos{
 }
 
-.navbar{
-	text-align: center;
-	font-size: var(--standardFontsize, 2vw);
-	position: sticky;
-}
 
 .dropdown{
 	font-size: calc(var(--standardFontsize, 2vw) - 1vw);

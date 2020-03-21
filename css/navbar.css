@@ -1,7 +1,7 @@
 :root{
 /* we can change the setting for the  */
 		@media (max-width: 360px) {
-			--standardFontsize: 1.5vw;
+			--standardFontsize: 1.4vw;
 			--marginEm: 30%; /* margin in % */
 		}
 
@@ -20,7 +20,8 @@
 	font-family: "Verdana";
 	font-size: 24px;
 	top: 0;
-	width: 100%;
+	width: inherit;
+
 }
 
 
