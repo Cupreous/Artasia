@@ -8,7 +8,7 @@ body{
 	background-color: olivedrab;
 }
 /* end of color coding */
-:root{
+
 /* we can change the setting for the  */
 		@media (max-width: 360px) {
 			--standardFontsize: 1.4vw;
@@ -20,7 +20,7 @@ body{
 			--marginEm: 15%;
 		}
 
-}
+
 .margins{
 	font-size: var(--standardFontsize, 2vw);
 	margin-left: var(--marginEm, 10%);
@@ -36,4 +36,16 @@ body{
 }
 #dropdownByU{
 
+}
+#issues{
+	float: right;
+	width: calc(var(--marginEm, 10%)*2);
+	height: fit-content;
+}
+#listdown{
+	list-style: none;
+}
+u{
+	text-decoration: solid;
+	text-decoration-color: olivedrab;
 }

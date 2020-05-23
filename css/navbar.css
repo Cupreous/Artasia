@@ -1,4 +1,4 @@
-:root{
+
 /* we can change the setting for the  */
 		@media (max-width: 360px) {
 			--standardFontsize: 1.4vw;
@@ -9,7 +9,6 @@
 			--standardFontsize: 3vw;
 			--marginEm: 15%;
 		}
-}
 
 
 /* top navigation bar itself */
